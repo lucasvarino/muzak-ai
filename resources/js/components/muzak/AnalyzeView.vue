@@ -6,7 +6,7 @@ import StepsFeed from './StepsFeed.vue';
 import Report from './Report.vue';
 import ReportPlaceholder from './ReportPlaceholder.vue';
 
-const props = defineProps<{
+defineProps<{
     tweaks: Tweaks;
 }>();
 
